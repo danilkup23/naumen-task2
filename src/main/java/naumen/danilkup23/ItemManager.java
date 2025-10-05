@@ -1,5 +1,6 @@
 package naumen.danilkup23;
 
+import naumen.danilkup23.items.ArrayItem;
 import naumen.danilkup23.items.ExitItem;
 import naumen.danilkup23.items.Item;
 import naumen.danilkup23.utils.ScannerUtil;
@@ -16,6 +17,7 @@ public class ItemManager {
 
     public ItemManager() {
         itemList.put(0, new ExitItem(this));
+        itemList.put(1, new ArrayItem());
     }
 
     public void startApplication() {
