@@ -2,6 +2,7 @@ package naumen.danilkup23;
 
 import naumen.danilkup23.items.ExitItem;
 import naumen.danilkup23.items.Item;
+import naumen.danilkup23.items.StreamAPIFormatPrint;
 import naumen.danilkup23.utils.ScannerUtil;
 
 import java.util.HashMap;
@@ -16,6 +17,7 @@ public class ItemManager {
 
     public ItemManager() {
         itemList.put(0, new ExitItem(this));
+        itemList.put(3, new StreamAPIFormatPrint());
     }
 
     public void startApplication() {
